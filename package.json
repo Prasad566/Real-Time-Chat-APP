@@ -1,0 +1,19 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This  is a node server for our iChat application",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "nodemon server",
+    "start" : "node index.js"
+    
+  },
+  "author": "\"prasad\"",
+  "license": "ISC",
+  "dependencies": {
+    "no": "^0.0.1",
+    "nodemon": "^3.0.1",
+  
+    "socket.io": "^4.7.2"
+  }
+}
